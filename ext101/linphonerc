@@ -152,35 +152,30 @@ ref=89lMIpdM-FuFQLz
 [nat_policy_3]
 ref=IakbJ1gN5LrWw37
 
-[auth_info_0]
-username=Manu
-ha1=87b00c34508b737db5ae82424984e542
-realm=asterisk
-domain=192.168.100.11
-algorithm=MD5
-
-[auth_info_1]
-username=ext101
-ha1=7132af494bc78d5019219702cfd741e4
-realm=asterisk
-domain=192.168.100.11
-algorithm=MD5
+[nat_policy_4]
+ref=dnmnrTJNLu3jgnX
 
 [proxy_0]
 reg_proxy=<sip:192.168.100.11;transport=udp>
-reg_identity=sip:ext101@192.168.100.11
+reg_identity="Manu" <sip:ext101@192.168.100.11>
 contact_parameters=message-expires=604800
 quality_reporting_enabled=0
 quality_reporting_interval=0
 reg_expires=3600
 reg_sendregister=1
-publish=1
-avpf=-1
+publish=0
+avpf=0
 avpf_rr_interval=1
 dial_escape_plus=0
 privacy=32768
 push_notification_allowed=0
-idkey=proxy_config_XsXHdj-s0Stbwgp
-publish_expires=3600
-nat_policy_ref=IakbJ1gN5LrWw37
+idkey=proxy_config_0GdVBhSIitvsCnJ
+publish_expires=-1
+
+[auth_info_0]
+username=ext101
+ha1=7132af494bc78d5019219702cfd741e4
+realm=asterisk
+domain=192.168.100.11
+algorithm=MD5
 
