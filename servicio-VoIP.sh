@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Descripcion
-TITULO="Ejemplo SAN sobre iSCSI"
+TITULO="Solución VoIP"
 CURSO="Centros de Datos, 2025/26"
 DIR_BASE_POR_DEFECTO=$HOME/CDA2526
 
